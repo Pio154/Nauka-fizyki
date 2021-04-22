@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Wzory fizyczne</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body bgcolor="230, 244, 241">
+<center>
+    <div id="menu">
+    <center>a=ΔV/t</center>
+    </div>
+
+    <div id="nav">
+        <center> 
+            <b>Podawaj liczby, zgodnie z jednostkami w nawiasach!</b><br>
+            <b>a - przyśpieszenie</b><br><br>
+            Podaj Vp = Prędkość początkową (m/s) <input type="number" id="vp"><br>
+            Podaj Vk = Prędkość końcową (m/s) <input type="number" id="vk"><br>
+            Vk - Vp = ΔV<br>
+            <br>
+            <span onclick="ru()">Oblicz V</span><br>
+            <b>V = </b><span id="Vwyn"></span><br>
+            <br>
+            <span onclick="prz()">Oblicz a</span><br>
+            <b>a = </b><span id="awyn"></span><br>
+            <button onclick="location.href=`index.html`">Powrót do menu</button>    
+        
+            <script src="11.js"></script>
+        </center>
+    </div>
+</center>
+
+</body>
+</html>

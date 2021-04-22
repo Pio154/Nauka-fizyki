@@ -1,0 +1,46 @@
+#menu
+{
+    width: 85%;
+    height:100px;
+    padding-top: 25px;
+    font-size: 50px;
+    background-color: #388ED8;
+    color: black;
+    font-family: Impact;
+    
+}
+
+#nav
+{
+    background-color: #A1ACBD;
+    color: black;
+    width: 85%;
+    height: 450px;
+    padding-top: 12.5px;
+    font-size: 25px;
+}
+
+#nav2
+{
+    background-color: #A1ACBD;
+    color: black;
+    width: 85%;
+    height: max-content;
+    padding-top: 12.5px;
+    font-size: 25px;
+}
+
+a:link
+{
+	color: black;
+}
+
+a:visited
+{
+	color: black;
+}
+
+a:hover
+{
+	color: #3D4756;
+}
